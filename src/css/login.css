@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mainLogin{
+    margin:70px auto;
+    width: 550px;
+    height: 460px;/*640*/
+    border-radius: 8px;
+    position: relative;
+
+    border: 1px solid #E2E2E2;
+}
+
+#hyhy{
+   height: 60px;
+   border-bottom: 1px solid #E2E2E2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#tx{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 225px;
+    background-color: #E2E2E2;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.d1{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    animation:xz 6s linear infinite;
+
+    /*border: 1px solid black;*/
+}
+
+.d2{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0px;
+    left: 0px;
+}
+
+.d3{
+    border-radius: 50%;
+    animation:dtx 6s linear infinite;
+}
+
+#infoLogin{
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+@keyframes xz{
+    0%{
+        transform: rotate(0deg);
+    }
+    96%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dtx{
+    0%{
+        width: 0%;
+        height: 0%;
+    }
+    50%{
+        width: 100%;
+        height: 100%;
+    }
+    96%{
+        width: 0%;
+        height: 0%;
+    }
+    100%{
+        width: 0%;
+        height: 0%;
+    }
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mainReg{
+    margin:40px auto;
+    width: 550px;
+    height: 650px;
+    border-radius: 8px;
+    position: relative;
+
+    border: 1px solid #E2E2E2;
+}
+
+#regSteps{
+    margin: 20px auto;
+    width: 60%;
+}
+
+#regHr{
+    /*height: 1px;*/
+    border-top: 1px solid #E2E2E2;
+}
+
+#infoReg{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+#infoReg > p{
+    font-weight:bold;
+}
+
+.pClass{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.interestDiv{
+    width:136px;
+    height:136px;
+    margin: 14px;
+    display:inline-block;
+    border:1px solid black;
+}
+
+#regNextBtn{
+    /*margin-top: 20px;*/
+    margin-left: 10%;
+    width: 80%;
+}
+
+div::-webkit-scrollbar{
+    display: none;
+}
